@@ -1,0 +1,32 @@
+.portfolio__hr {
+    border-top: 1px solid white;
+    border-bottom: 1px solid #d8e0e8;
+    margin-bottom: 0;
+}
+
+.portfolio {
+    background: url("../images/bg_portfolio.png") no-repeat center/cover;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.portfolio__tittle {
+    font-family: "Montserrat-Bold", Ubuntu, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0 30px;
+    color: #333b42;
+    margin: 0;
+}
+.portfolio__text {
+    font-family: "Gotham-Medium", Ubuntu, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 65px;
+    color: #abafb2;
+    margin: 0;
+}

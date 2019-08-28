@@ -1,0 +1,55 @@
+.page__container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 15px;
+}
+.page__container--header {
+    margin: 0 auto;
+    padding: 75px 0 260px;
+}
+.page__vertical_button--theme {
+    transform: rotate(-90deg);
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Gotham-Bold", Arial, Helvetica, sans-serif;
+    padding: 24px 50px;
+    top: 250px;
+    right: -55px;
+    border-radius: 5px;
+    background-color: #8500d2;
+    color: white;
+    position: fixed;
+    z-index: 101;
+    transition: 0.7s;
+}
+.page__vertical_button--theme:hover {
+    background-color: #6A00A8;
+}
+
+.page__container--design {
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.page__container--features {
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+.page__container--portfolio {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.page__container--about {
+    padding-left: 240px;
+    padding-top: 350px;
+}
+.page__container--footer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+    height: 800px;
+    position: relative;
+}

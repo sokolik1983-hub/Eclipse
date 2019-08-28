@@ -1,0 +1,39 @@
+.footer_tables {
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 320px;
+    z-index: 2;
+}
+.footer_tables__ul_aboutus, .footer_tables__ul_contacts {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 35px;
+    margin: 0;
+}
+.footer_tables__ul_contacts {
+    vertical-align: top;
+    margin-left: 40px;
+}
+.footer_tables__link {
+    text-decoration: none;
+    color: #8297a7;
+}
+.footer_tables__text {
+    padding-left: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 35px;
+    color: #8297a7;
+    margin: 0;
+}
+.footer_tables__link:hover {
+    font-weight: bold;
+    color: #28c8c6;
+}

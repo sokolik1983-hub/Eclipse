@@ -1,0 +1,19 @@
+.features__tittle {
+    font-family: "Montserrat-Bold", Ubuntu, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 29px;
+    padding: 50px 0 30px;
+    margin: 0;
+    color: #333b42;
+    text-align: center;
+    text-transform: uppercase;
+}
+.features__text {
+    font-family: "Gotham-Medium", Pacifico, "Arial Black", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0;
+    color: #9ca0a3;
+    text-align: center;
+    padding-bottom: 40px;
+}

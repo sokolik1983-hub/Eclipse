@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    src: url('../fonts/Gotham-Bold.otf');
+    font-family: "Gotham-Bold";
+}
+@font-face {
+    src: url('../fonts/Gotham-Medium.otf');
+    font-family: "Gotham-Medium";
+}
+@font-face {
+    src: url('../fonts/Montserrat-Bold.ttf');
+    font-family: "Montserrat-Bold";
+}
+@font-face {
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-family: "Montserrat-Regular";
+}
+
+body {
+    word-wrap: break-word;
+    min-width: 320px;
+    margin: 0;
+}

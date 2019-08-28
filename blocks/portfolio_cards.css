@@ -1,0 +1,58 @@
+.portfolio_cards__bracket {
+    position: absolute;
+    bottom: 25%;
+    right: 12%;
+}
+
+.portfolio_cards {
+    display: none;
+    font-size: 0;
+    margin: 0;
+    padding: 0 0 100px;
+    list-style: none;
+}
+.portfolio_cards__tittle {
+    font-family: "Montserrat-Regular", Pacifico, "Arial Black", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+    position: relative;
+}
+.portfolio_cards__item {
+    font-size: 20px;
+    width: 33.33%;
+    display: inline-block;
+    padding: 0 10px;
+}
+.portfolio_cards__inner {
+    margin: 0 -10px;
+}
+.portfolio_cards__item_inner {
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+.portfolio_cards__img {
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.portfolio_cards__item_inner:hover {
+    box-shadow: 0 0 15px grey;
+}
+.portfolio_cards__item_link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.portfolio_cards__info {
+    text-align: center;
+    padding: 20px 0;
+}
+.portfolio_cards__img {
+    width: 100%;
+    height: 200px;
+}

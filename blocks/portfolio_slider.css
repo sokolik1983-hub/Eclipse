@@ -1,0 +1,39 @@
+.portfolio_slider {
+    background-color: #f6f9fa;
+    padding: 50px;
+    height: 100%;
+}
+.portfolio_slider__cards {
+    margin: 0 auto;
+    max-width: 1180px;
+    background-color: #f6f9fa;
+}
+
+.portfolio_slider__cards_item_inner {
+    border-radius: 5px;
+    width: 380px;
+    position: relative;
+    background-color: white;
+}
+.portfolio_slider__cards_item_link {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.portfolio_slider__cards_info {
+    text-align: center;
+    padding: 20px 0;
+
+}
+.portfolio_slider__cards_tittle {
+    font-family: "Montserrat-Regular",Ubuntu, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 25px;
+    position: relative;
+}
+.portfolio_slider__bracket {
+    position: absolute;
+    right: 12%;
+    top: 20%;
+}

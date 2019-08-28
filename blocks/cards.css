@@ -1,0 +1,65 @@
+.cards {
+    font-size: 0;
+    margin: 0;
+    list-style: none;
+}
+.cards__item {
+    font-size: 20px;
+    width: 25%;
+    display: inline-block;
+    padding: 0 10px;
+}
+.cards__inner {
+    margin: 0 -10px;
+}
+.cards__item_inner {
+    position: relative;
+    padding-top: 10px;
+}
+
+.cards__item_inner:hover {
+    box-shadow: 0 0 15px grey;
+}
+.cards__tittle {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 17px auto 30px;
+    font-family: "Gotham-Bold", Pacifico, "Arial Black", sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+    color: #6f757a;
+}
+.cards__text {
+    text-align: center;
+    font-family: "Gotham-Medium", Ubuntu, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #74797e;
+}
+
+.cards__item_link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.cards__info {
+    padding: 20px 10px;
+}
+.cards__img {
+    position: relative;
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    background-color: #8100CC;
+    border-radius: 50%;
+}
+.cards__img_inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

@@ -1,0 +1,48 @@
+.footer_socials {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    text-align: right;
+    margin: 0;
+    z-index: 4;
+}
+.footer_socials__facebook, .footer_socials__tweet {
+    text-align: center;
+    float: right;
+    margin-right: 3px;
+    height: 38px;
+    line-height: 38px;
+    width: 95px;
+    border-radius: 5px;
+}
+.footer_socials__facebook {
+    margin-left: 10px;
+}
+.footer_socials__tweet {
+    background-color: #69b6f2;
+}
+.footer_socials__facebook {
+    background-color: #3a579a;
+}
+.footer_socials__tweet:hover {
+    background-color: #45759b;
+}
+.footer_socials__facebook:hover {
+    background-color: #5985ea;
+}
+
+.footer_socials__facebook_img, .footer_socials__tweet_img {
+    margin-top: 5px;
+}
+.footer_socials__text {
+    font-weight: bold;
+    padding-top: 38px;
+    padding-bottom: 8px;
+    clear: both;
+    font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 35px;
+    color: #8297a7;
+    margin: 0;
+}

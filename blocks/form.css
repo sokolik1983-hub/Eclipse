@@ -1,0 +1,54 @@
+.form__select {
+    float: left;
+    vertical-align: top;
+    width: 280px;
+    height: 60px;
+    appearance: none;
+    -webkit-appearance:none;
+    background: url("../images/bg_select.jpg") center/cover;
+    border: 2px solid white;
+    font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: #474747;
+}
+.form__email {
+    float: left;
+    vertical-align: top;
+    margin-left: 17px;
+    width: 282px;
+    height: 60px;
+    border: 2px solid white;
+    appearance: none;
+    -webkit-appearance:none;
+    background:url("../images/bg_email.jpg") center/cover;
+    font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: #474747;
+}
+.form__enter--button {
+    transition: 0.7s;
+    float: left;
+    cursor: pointer;
+    margin-left: 17px;
+    width: 64px;
+    height: 61px;
+    background: url("../images/Shape39@3x.png") no-repeat center/cover;
+    background-size: 17px 17px;
+    background-color: #28c8c6;
+    border: 1px solid #28c8c6;
+    border-radius: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.form__enter--button:hover {
+    background-color: #1A807E;
+    border: 1px solid #1A807E;
+}

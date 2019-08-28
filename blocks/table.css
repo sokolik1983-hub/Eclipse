@@ -1,0 +1,54 @@
+.table {
+    text-align: center;
+    margin: 0 auto;
+
+}
+.table__menu {
+    padding: 0 0 70px;
+    font-size: 0;
+}
+.table__menu_item {
+    display: inline-block;
+}
+.table__menu_link1, .table__menu_link2, .table__menu_link3, .table__menu_link4 {
+    font-family: "Gotham-Bold", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 29px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #28c8c6;
+    padding: 23px 30px;
+    border-top-color: #28c8c6;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-color: #28c8c6;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.table__menu_link1 {
+    border-left-color: #28c8c6;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+.table__menu_link4 {
+    border-right-color: #28c8c6;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.table__menu_link1:hover {
+    background-color: #28c8c6;
+    color: white;
+}
+.table__menu_link2:hover {
+    background-color: #28c8c6;
+    color: white;
+}
+.table__menu_link3:hover {
+    background-color: #28c8c6;
+    color: white;
+}
+.table__menu_link4:hover {
+    background-color: #28c8c6;
+    color: white;
+}

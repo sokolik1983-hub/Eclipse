@@ -1,0 +1,30 @@
+
+.about {
+    background: url("../images/bg_footer_start.png") no-repeat center/cover;
+}
+
+.about__tittle, .about__text {
+    color: white;
+}
+.about__tittle {
+    font-family: "Montserrat-Bold", Pacifico, "Arial Black", sans-serif;
+    font-size: 60px;
+    line-height: 55px;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    margin: 0;
+    top: 350px;
+    left: 250px
+}
+.about__text {
+    font-family: "Gotham-Medium", Ubuntu, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    padding-bottom: 325px;
+}
+.about__tittle_container {
+    display: inline-block;
+    width: 520px;
+    padding-left: 15px;
+}

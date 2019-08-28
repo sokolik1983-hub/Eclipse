@@ -1,0 +1,25 @@
+.design {
+    background: url("../images/bg_section_design.png");
+}
+.design__tittle {
+    text-align: center;
+    font-family: "Gotham-Bold", Ubuntu, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 29px;
+    padding: 10px 0 35px;
+    text-transform: uppercase;
+    color: #333b42;
+    margin: 0;
+}
+.design__text {
+    text-align: center;
+    font-family: "Gotham-Medium", Ubuntu, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 75px;
+    color: #9da1a5;
+    margin: 0;
+}
+.design__picture {
+    text-align: center;
+}

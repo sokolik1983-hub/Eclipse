@@ -1,0 +1,29 @@
+.header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    background: url("../images/bg_header.jpg") no-repeat center/cover;
+}
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__tittle {
+    padding: 190px 0 35px;
+    font-size: 60px;
+    line-height: 55px;
+    font-family: "Montserrat-Bold", Ubuntu, Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+.header__text {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Gotham-Medium", Ubuntu, Arial, sans-serif;
+    color: white;
+    padding-bottom: 30px;
+    padding-right: 670px;
+    margin: 0;
+}

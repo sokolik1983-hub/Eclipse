@@ -1,0 +1,154 @@
+@media screen and (max-width: 1304px) {
+    h1 {
+        padding-left: 15px;
+    }
+    h2, h3 {
+        line-height: 32px;
+    }
+    .logo {
+        padding-left: 15px;
+    }
+    .header__tittle, .header__text {
+        padding-left: 15px;
+    }
+    .header__text {
+        padding-right: 15px;
+    }
+    .cards__item {
+        width: 33.33%;
+    }
+    .card_inner {
+        margin: 0;
+    }
+
+    .menu__link {
+        padding: 0;
+    }
+    .menu__link:hover {
+        color: #A52A2A;
+        border-bottom: 3px solid transparent;
+    }
+    .portfolio_cards {
+        display: block;
+    }
+    .portfolio_slider{
+        display: none;
+    }
+    .portfolio_cards__item {
+        width: 33.33%;
+    }
+    .footer__picture {
+        top: -300px;
+    }
+    .footer_socials {
+        width: 100%;
+    }
+    .footer_socials__text {
+        padding-right: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .mnav__open {
+        padding-right: 15px;
+        display: block;
+    }
+    .mnav__close {
+        padding-right: 15px;
+    }
+    .mnav {
+        display: block;
+    }
+    .mnav__submenu {
+        float: right;
+    }
+    .page__vertical_button--theme {
+        opacity: 0.5;
+    }
+    .header__tittle {
+        padding-top: 100px;
+        font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        line-height: 45px;
+        padding-left: 15px;
+    }
+    .form__select, .form__email, .form__enter {
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .design__tittle {
+        line-height: 35px;
+    }
+    .design__picture_img {
+        width: 290px;
+    }
+    .cards__item {
+        width: 50%;
+    }
+    .portfolio_cards {
+        display: block;
+    }
+    .portfolio_cards__inner {
+        margin: 0;
+    }
+    .portfolio_cards__item {
+        width: 50%;
+    }
+    .page__container--about {
+        padding-left: 15px;
+    }
+    .about__tittle_container {
+        width: 90%;
+    }
+    .about__tittle {
+        font-size: 40px;
+        line-height: 30px;
+        padding-left: 0;
+        padding-top: 100px;
+    }
+    .footer__picture {
+        display: none;
+    }
+
+
+}
+@media screen and (max-width: 540px) {
+    .page__vertical_button--theme {
+        padding: 12px 25px;
+    }
+    .cards__item {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .portfolio__cards {
+        display: block;
+    }
+    .table__menu_link1, .table__menu_link2, .table__menu_link3, .table__menu_link4 {
+        border-top-width: 0;
+        display: block;
+        font-size: 28px;
+        line-height: 29px;
+        padding: 5px 5px;
+    }
+    .table__menu_item {
+        display: block;
+    }
+    .table__menu_link1 {
+        border-top-width: 2px !important;
+        border-left-color: transparent !important;
+    }
+    .table__menu_link4 {
+        border-right-color: transparent;
+    }
+    .portfolio_cards__item {
+        width: 100%;
+    }
+
+}
